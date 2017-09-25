@@ -18,20 +18,8 @@
 
 <configuration>
     <property>
-        <name>dfs.datanode.data.dir</name>
-        <value>file:///home/hadoop/hdfs/</value>
-        <description>DataNode directory for storing data chunks.</description>
-    </property>
-
-    <property>
-        <name>dfs.namenode.name.dir</name>
-        <value>file:///home/hadoop/hdfs/</value>
-        <description>NameNode directory for namespace and transaction logs storage.</description>
-    </property>
-
-    <property>
         <name>dfs.replication</name>
-        <value>3</value>
+        <value>1</value>
         <description>Number of replication for each chunk.</description>
     </property>
 </configuration>	
